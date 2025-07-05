@@ -22,9 +22,10 @@ This repository contains files and links for LaTeX resume template to built a pr
   
 > Didn't find what you were looking for, check out this [link](https://www.overleaf.com/latex/templates?q=resume) to search for more templets.  
 
-### Exampel
-- how [`main.tex`](./main.tex) looks like after compiling it.
-- ![demo](./main.jpg)
+### Example
+- how [main.tex](https://raw.githubusercontent.com/rushhiii/Latex-Resume-Template/refs/heads/main/main.tex?token=GHSAT0AAAAAADGLHNDY523B7EONJVGQP52U2DI5QQA) looks like after compiling it.
+<!-- ![demo](./main.jpg) -->
+<img align="center" src="https://github.com/rushhiii/Latex-Resume-Template/blob/a6f9e7489167a5ab4fdb4c9c3da771505ca240cd/main.jpg" width="500px">
 
 
 
@@ -38,7 +39,7 @@ This repository contains files and links for LaTeX resume template to built a pr
     git clone https://github.com/rushhiii/Latex-Resume-Template.git
     cd Latex-Resume-Template
     ```
-    - if dont want to install LaTeX distribution locally, you can simply copy paste [`main.tex`](./main.tex) code into Overleaf or use the links above!
+    - if dont want to install LaTeX distribution locally, you can simply copy paste [`main.tex`](./https://github.com/rushhiii/Latex-Resume-Template/blob/7fc0b1a18ba38837eda35dc2b22aa88209b0c1a7/main.tex) code into Overleaf or use the links above!
   
 3. **Edit the Resume:**
 
