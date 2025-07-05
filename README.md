@@ -33,7 +33,7 @@ This repository contains files and links for LaTeX resume template to built a pr
     cd cs-resume
     ```
 
-    - if dont want to locally install LaTeX distribution, you can simply copy paste [`main.tex`](./main.tex) code into Overleaf or use the links above!
+    - if dont want to install LaTeX distribution locally, you can simply copy paste [`main.tex`](./main.tex) code into Overleaf or use the links above!
 
 3. **Edit the Resume:**
 
