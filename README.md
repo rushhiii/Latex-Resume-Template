@@ -22,6 +22,12 @@ This repository contains files and links for LaTeX resume template to built a pr
   
 > Didn't find what you were looking for, check out this [link](https://www.overleaf.com/latex/templates?q=resume) to search for more templets.  
 
+### Exampel
+- how [`main.tex`](./main.tex) looks like after compiling it.
+- ![demo](./main.jpg)
+
+
+
 ## How to Use
 
 1. **Prerequisites:** Install LaTeX distribution (e.g., TeX Live, MiKTeX), or create an Overleaf account (Free).
