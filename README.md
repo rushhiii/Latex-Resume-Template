@@ -26,15 +26,14 @@ This repository contains files and links for LaTeX resume template to built a pr
 
 1. **Prerequisites:** Install LaTeX distribution (e.g., TeX Live, MiKTeX), or create an Overleaf account (Free).
 
-2. **Clone the Repository:**
+2. **Clone/Fork this Repository:**
 
     ```bash
-    git clone https://github.com/yourusername/cs-resume.git
-    cd cs-resume
+    git clone https://github.com/rushhiii/Latex-Resume-Template.git
+    cd Latex-Resume-Template
     ```
-
     - if dont want to install LaTeX distribution locally, you can simply copy paste [`main.tex`](./main.tex) code into Overleaf or use the links above!
-
+  
 3. **Edit the Resume:**
 
     - Open `main.tex` in your preferred LaTeX editor.
