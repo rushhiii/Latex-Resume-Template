@@ -20,7 +20,7 @@ This repository contains files and links for LaTeX resume template to built a pr
 - [Matty](https://www.overleaf.com/latex/templates/mattys-resume/hsfvwkkqxyfy) \ Jake's Resume alternative for students
 - [Santiago](https://www.overleaf.com/latex/templates/first-year-resume-template-for-cs/sdmvdsgzxpwy) \ First year resume template for CS -Resume template for students with little to no experience, based on the ModernCV template.
   
-> Didn't find what you were looking for, check out this [link](https://www.overleaf.com/latex/templates?q=resume) for search for more templets.  
+> Didn't find what you were looking for, check out this [link](https://www.overleaf.com/latex/templates?q=resume) to search for more templets.  
 
 ## How to Use
 
