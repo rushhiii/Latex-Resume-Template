@@ -11,10 +11,15 @@ This repository contains files and links for LaTeX resume template to built a pr
 - Structured layout to emphasize key information.
 
 ### Famous Templets
-- [Jake's Resume](https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs)
-- [First year resume template for CS](https://www.overleaf.com/latex/templates/first-year-resume-template-for-cs/sdmvdsgzxpwy)\ Resume template for students with little to no experience, based on the ModernCV template.
+- [Jake](https://www.overleaf.com/latex/templates/jakes-resume-anonymous/cstpnrbkhndn) \ CS Resume Template
+- [harshibar](https://www.overleaf.com/latex/templates/harshibars-resume/sbcyynmtpnyd) \ A simple one-page resume adapted from Jake's Resume.
+- [Whemoon Jang](https://www.overleaf.com/latex/templates/brutal-resume/bksyyybqbhsy) \ brutal-resume - extremely slim Latex resume template
+- [Jake Gutierrez](https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs) \ A simple, straight-forward resume template
+- [Sidney Hann](https://www.overleaf.com/articles/sidney-hanns-resume/wzmvhxpyskxv) \ Sidney Hann's résumé
+- [Vaishanth R](https://www.overleaf.com/latex/templates/resume-professional-template-software-engineer/ttwtyxskrcsz) \ Resume Professional Template - Software Engineer.
+- [Matty](https://www.overleaf.com/latex/templates/mattys-resume/hsfvwkkqxyfy) \ Jake's Resume alternative for students
+- [Santiago](https://www.overleaf.com/latex/templates/first-year-resume-template-for-cs/sdmvdsgzxpwy) \ First year resume template for CS -Resume template for students with little to no experience, based on the ModernCV template.
   
-
 > Didn't find what you were looking for, check out this [link](https://www.overleaf.com/latex/templates?q=resume) for search for more templets.  
 
 ## How to Use
