@@ -2,12 +2,20 @@
 
 This repository contains files and links for LaTeX resume template to built a professional computer science resume. This templates are designed to highlight technical skills, project experience, and achievements in a clean and organized format.
 
-## Overview of Features
+## Overview
 
+### Features
 - Clean and modern design.
 - Easy to customize and tailor for different job applications.
 - Sections for technical skills, work experience, projects, and education.
 - Structured layout to emphasize key information.
+
+### Famous Templets
+- [Jake's Resume](https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs)
+- [First year resume template for CS](https://www.overleaf.com/latex/templates/first-year-resume-template-for-cs/sdmvdsgzxpwy)\ Resume template for students with little to no experience, based on the ModernCV template.
+  
+
+> Didn't find what you were looking for, check out this [link](https://www.overleaf.com/latex/templates?q=resume) for search for more templets.  
 
 ## How to Use
 
