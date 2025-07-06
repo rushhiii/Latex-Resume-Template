@@ -27,6 +27,10 @@ This repository contains files and links for LaTeX resume template to built a pr
 <!-- ![demo](./main.jpg) -->
 <img align="center" src="https://github.com/rushhiii/Latex-Resume-Template/blob/a6f9e7489167a5ab4fdb4c9c3da771505ca240cd/main.jpg" width="500px">
 
+- how [main-v1.tex](https://github.com/rushhiii/Latex-Resume-Template/blob/a233497b103bab551a95e738932f8b356d642d7a/main-v1.tex) looks like after compiling it.
+<img align="center" src="https://github.com/rushhiii/Latex-Resume-Template/blob/838a49e47814f170abf57d712d3480f793f72ee2/main-v1.jpg" width="500px">
+
+
 
 
 ## How to Use
