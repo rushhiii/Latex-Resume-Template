@@ -1,0 +1,231 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Name} \\ \vspace{1pt}
+    City, Province \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ \href{tel:+1234567890}{123-456-7890} ~ \href{mailto:example@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  example@gmail.com} ~ 
+    \href{https://linkedin.com/exampleProfile/}{\raisebox{-0.2\height}\faLinkedin\ linkedin.com/in/exampleProfile}  ~
+    \href{https://github.com/exampleProfile}{\raisebox{-0.2\height}\faGithub\ github.com/exampleProfile}
+    % \vspace{-8pt}
+\end{center}
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University}{Jan. 20XX --- Mar. 20XX}
+      {Degree}{City, Province}
+  \resumeSubHeadingListEnd
+  %-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Lang1, Lang2, Lang3} \\
+     \textbf{Developer Tools}{: Tool1, Tool2, Tool3} \\
+     \textbf{Technologies/Frameworks}{: Framework1, Framework2, Framework3} \\
+    }}
+ \end{itemize}
+ % \vspace{-20pt}
+% %------RELEVANT COURSEWORK-------
+% \section{Relevant Coursework}
+%     %\resumeSubHeadingListStart
+%         \begin{multicols}{4}
+%             \begin{itemize}[itemsep=-5pt, parsep=3pt]
+%                 \item\small Data Structures
+%                 \item Software Methodology
+%                 \item Algorithms Analysis
+%                 \item Database Management
+%                 \item Artificial Intelligence
+%                 \item Internet Technology
+%                 \item Systems Programming
+%                 \item Computer Architecture
+%             \end{itemize}
+%         \end{multicols}
+%         \vspace*{2.0\multicolsep}
+%     %\resumeSubHeadingListEnd
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Company1}{Jan. 20XX --- Mar. 20XX}
+      {Title}{City, Province}
+      \resumeItemListStart
+        \resumeItem{Point1}
+        \resumeItem{Point2}
+        \resumeItem{Point3}
+        \resumeItem{Point4}
+        \resumeItem{Point5}
+        \resumeItem{Point6}
+    \resumeItemListEnd
+    % \vspace{-12.5pt}
+    \resumeSubheading
+      {Company2}{Jan. 20XX --- Mar. 20XX}
+      {Title}{City, Province}
+      \resumeItemListStart
+        \resumeItem{Point1}
+        \resumeItem{Point2}
+        \resumeItem{Point3}
+        \resumeItem{Point4}
+        \resumeItem{Point5}
+        \resumeItem{Point6}
+    \resumeItemListEnd
+    % \vspace{-12.5pt}
+    \resumeSubheading
+      {Company3}{Jan. 20XX --- Mar. 20XX}
+      {Title}{City, Province}
+      \resumeItemListStart
+        \resumeItem{Point1}
+        \resumeItem{Point2}
+        \resumeItem{Point3}
+        \resumeItem{Point4}
+        \resumeItem{Point5}
+        \resumeItem{Point6}
+    \resumeItemListEnd
+    % \vspace{-12.5pt}
+  \resumeSubHeadingListEnd
+% \vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+          {\textbf{Project1} $|$ \emph{Description/Languages Used}}{}
+          \resumeItemListStart
+            \resumeItem{Point1}
+            \resumeItem{Point2}
+            \resumeItem{Point3}
+          \resumeItemListEnd 
+          \vspace{-20pt}
+      \resumeProjectHeading
+          {\textbf{Project2} $|$ \emph{Description/Languages Used}}{}
+          \resumeItemListStart
+            \resumeItem{Point1}
+            \resumeItem{Point2}
+            \resumeItem{Point3}
+          \resumeItemListEnd
+          \vspace{-13pt}
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+\end{document}
